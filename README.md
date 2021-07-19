@@ -1,1 +1,1 @@
-https://gortatka.github.io/rsschool-cv/cv
+https://gortatka.github.io/rsschool-cv/
