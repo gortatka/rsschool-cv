@@ -1,1 +1,0 @@
-https://gortatka.github.io/rsschool-cv/cv
