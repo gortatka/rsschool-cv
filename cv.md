@@ -54,6 +54,10 @@ Sample University:	2005
 Belorussian Technological University,
 
 process engineer of printing production
+### Professional Experience
+- EXADEL, Junior QA 01.2021 - present
+- structural unit of the KGB, engineer 07.2020 - 08.2020
+#### *English level:* B1
 
 
 
