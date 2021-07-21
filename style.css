@@ -1,12 +1,11 @@
-.container {
-    max-width: 1200px;
+body {
     margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(155, 153, 153);
     font-family: 'Noto Sans JP', sans-serif;
-    color: rgba(69, 80, 107, 1);
 }
 
 header,
@@ -15,8 +14,10 @@ footer {
 }
 
 main {
-    background-color: rgb(155, 153, 153);
-    height: 600px;
+    min-height: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 li {
@@ -30,6 +31,11 @@ a {
 h1 {
     text-align: center;
     color: rgba(69, 80, 107, 1);
+}
+
+h1:hover {
+    transform: scale(2);
+    color: honeydew;
 }
 
 figure {
@@ -51,11 +57,96 @@ figcaption {
 
 .code-block {
     display: block;
+    float: right;
     background-color: rgba(69, 80, 107, 1);
     color: rgba(255, 127, 189, 1);
     border-radius: 5px;
     max-width: 900px;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
-    margin: 30px 0px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: honeydew;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: rgba(69, 80, 107, 1);
+    font-weight: 600;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+footer img {
+    padding: 20px;
+}
+
+footer img:hover {
+    transform: scale(2);
+}
+
+#about {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 40px;
+    font-size: 40px;
+    color: rgba(69, 80, 107, 1);
+    text-align: center;
+}
+
+h2:hover {
+    color: honeydew;
+}
+
+#about ul li {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#education ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#education ul li {
+    width: 15%;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(68, 51, 68);
+    color: ivory;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#expirience ul lu {
+    padding: 20px;
+}
+
+h3 {
+    color: rgb(68, 51, 68);
+    ;
 }
