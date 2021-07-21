@@ -2,7 +2,21 @@
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
-    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgba(69, 80, 107, 1);
+}
+
+header,
+footer {
+    background-color: rgb(116, 97, 97);
+}
+
+main {
+    background-color: rgb(155, 153, 153);
+    height: 600px;
 }
 
 li {
@@ -18,14 +32,21 @@ h1 {
     color: rgba(69, 80, 107, 1);
 }
 
-aside {
+figure {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+}
+
+figcaption {
+    padding-top: 10px;
 }
 
 .photo {
     width: 30%;
+    border-radius: 50%;
+    box-shadow: 20px rgb(46, 44, 44);
+    text-align: center;
 }
 
 .code-block {

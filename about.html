@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="about">
+        <h2>Summary of Qualifications</h2>
+        <ul>
+            <li>Good theoretical knowledge of software testing process.</li>
+            <li>Good understanding of Scrum methodology.</li>
+            <li>Basic knowledge of JS,JAVA</li>
+            <li>Experience in test documentation design and update: test cases, check lists.</li>
+            <li>Detail oriented, methodical deal with routine, hardworking, responsible, well-organized, sociable and fast learner.</li>
+            <li>Capable of working in a multitasking mode, making decisions under difficult and stressful conditions.</li>
+        </ul>
+    </section>
+    <section id="scills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Operating Systems: Windows XP/7/8/10, Android, iOS</li>
+            <li>Bug tracking system: Jira, Azure DevOps</li>
+            <li>Basic knowledge of JS,JAVA</li>
+            <li>Browsers: Chrome, Firefox, Edge, Internet Explorer</li>
+            <li>Testing tools: Postman, Dev Tools, Charles, Web Console</li>
+            <li>Database: MySQL</li>
+            <li>Test Management tool: TestRail, Google docs</li>
+            <li>Development Environments and Tools: Visual Studio Code, IntelliJ IDEA</li>
+            <li>Source Control: Git</li>
+            <li>Professional Experience</li>
+        </ul>
+    </section>
+    <h3>Examples of code</h3>
+    <div class="code-block">
+        <pre>
+    function getSimpsonsQuoteFromApi() { 
+
+    const url = "https://simpsons-quotes-api.herokuapp.com/quotes/";
+    
+              axios.get(url)
+                  .then(function(response) {
+                      return response.data;
+                  })
+                  .then(function(simpsonsQuote) {
+                      console.log('data decoded from JSON:', simpsonsQuote);
+                      const simpsonQuoteHtml =
+                          `&lt;p>&lt;strong>Name: ${simpsonsQuote[0].character}&lt;/strong>&lt;/p>
+                          &lt;p>&lt;strong>Quote: ${simpsonsQuote[0].quote}&lt;/strong>&lt;/p>
+                          &lt;p>Avatar:&lt;/p>
+                          &lt;img src="${simpsonsQuote[0].image}" alt ="simpsons picture"/>`;
+  
+                      document.querySelector("#simpson").innerHTML = simpsonQuoteHtml;
+                  });
+          }
+    </pre>
+    </div>
+    <section id="education">
+        <h2>Professional Certificates</h2>
+        <ul>
+            <li>Training courses for beginner testers from Exadel, 2020</li>
+            <li>Internal QA training for junior Qas, 2021</li>
+            <li>'Front-End Web Development' Wild Code School, 2021</li>
+            <li>'Java for beginners' Udemy, 2021</li>
+        </ul>
+        <h2>Education</h2>
+        <h4>Belorussian Technological University,</h4>
+        <h6>process engineer of printing production</h6>
+    </section>
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <ul>
+            <li>EXADEL, Junior QA 01.2021 - present</li>
+            <li>structural unit of the KGB, engineer 07.2020 - 08.2020</li>
+        </ul>
+    </section>
+    <h5>English level:B1</h5>
+</body>
+
+</html>
